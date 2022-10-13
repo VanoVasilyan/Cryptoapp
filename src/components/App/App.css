@@ -367,6 +367,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    padding: 0 20px;
 }
 
 .show-more {
