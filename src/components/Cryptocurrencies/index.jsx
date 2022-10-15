@@ -7,7 +7,7 @@ import { useGetCryptosQuery } from '../../services/cryptoApi';
 const Cryptocurrencies = ({ simplifield }) => {
     const count = simplifield ? 10 : 100
     const { data: cryptosList, isFetching } = useGetCryptosQuery(count);
-    const [cryptos, setCryptos] = useState(cryptosList?.data?.coins);
+    const [cryptos, setCryptos] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
