@@ -30,7 +30,6 @@ a:hover {
 .main {
     flex: 0.8;
     width: 100%;
-
 }
 
 .routes {
@@ -367,7 +366,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .show-more {
