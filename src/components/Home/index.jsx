@@ -25,12 +25,12 @@ const Home = () => {
         <Typography.Title level={2} className="home-title">Top 10 Cryptocurrencies in the world</Typography.Title>
         <Typography.Title level={3} className="show-more"><Link to='/cryptocurrencies'>Show More</Link></Typography.Title>
       </div>
-      <Cryptocurrencies simplifield/>
+      <Cryptocurrencies simplifield />
       <div className='home-heading-container'>
         <Typography.Title level={2} className="home-title">Latest Crypto News</Typography.Title>
         <Typography.Title level={3} className="show-more"><Link to='/news'>Show More</Link></Typography.Title>
       </div>
-      <News simplifield/>
+      <News simplifield />
     </div>
   )
 }

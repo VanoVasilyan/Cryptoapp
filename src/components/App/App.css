@@ -366,7 +366,8 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-    /* padding: 0 20px; */
+    margin: 15px 0;
+    row-gap: 24px;
 }
 
 .show-more {
